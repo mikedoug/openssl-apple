@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.license         = { :type => 'Apache', :file => 'LICENSE' }
 
     s.prepare_command = <<-CMD
-./build-libssl.sh --version=#{openssl_version}
+./build-libssl.sh --version=#{openssl_version} --target "ios-sim-cross-x86_64 ios64-cross-arm64 ios-cross-armv7s ios-cross-armv7"
 ./create-openssl-framework.sh dynamic
     CMD
 

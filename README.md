@@ -1,3 +1,7 @@
+# OpenSSL-Apple - MikeDoug's Hacky Branch
+
+This fork only exists so that I can force this to only build for the iOS platform.  Right now I don't care about OSX and my Xcode 10 installation doesn't support compiling for i386.
+
 # OpenSSL-Apple
 
 ![iOS support](https://img.shields.io/badge/iOS-11+-blue.svg)
